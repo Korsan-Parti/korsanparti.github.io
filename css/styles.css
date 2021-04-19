@@ -109,6 +109,10 @@ h3 {
   color: white;
 }
 
+.none {
+  visibility:hidden !important;
+}
+
 @media (max-width: 560px) {
   .hos {
     font-size: 35px;
