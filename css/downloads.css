@@ -1,0 +1,87 @@
+#speakers p {
+	color: rgba(255,255,255, 0.85);
+	font-size: 16px;
+	letter-spacing: 0.2px;
+}
+
+#speakers h1 {
+  font-size: 50px;
+  margin-bottom: 5%;
+  margin-top: 0;
+}
+
+.select-arch {
+	display: block;
+}
+
+.select-de {
+	display: none;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 5px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h2 {
+  font-size: 35px;
+  color: white;
+}
+img {
+  width: 100%;
+}
+.card {
+  width: 87%;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  padding: 10px;
+  margin: 10px;
+  background: #353535;
+  border-radius: 8px;
+  transition: all 0.2s linear;
+	cursor: pointer;
+}
+.card:hover {
+	width: 92%;
+  box-shadow: 4px 4px 6px 0px  rgba(0,0,0,0.5);
+  transition: all 0.2s linear;
+	background: #ff4d0d;
+}
+
+.card:focus {
+	linear-gradient(45deg, rgba(255, 29, 17, 0.9), rgba(255, 162, 6, 0.9));
+}
+
+.card img {
+  max-width: 150px;
+  float: right;
+  padding: 10px;
+ }
+
+.card:hover img{
+	filter: grayscale(100%);
+}
+
+.card-info {
+  font-size: 12px;
+  color: white;
+  text-align: left;
+  padding: 10px;
+ }
+
+ @media (max-width: 900px) {
+   .row1 {
+     display: grid;
+     grid-template-columns: auto;
+     padding: 10px;
+   }
+  @media (max-width: 465px) {
+    .card img {
+      max-width: 100px;
+      float: right;
+      padding: 10px;
+     }
+ }

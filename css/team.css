@@ -1,0 +1,161 @@
+* {margin: 0; padding: 0;}
+
+
+
+a {text-decoration: none; color: #fff; transition: all 0.1s ease-in;}
+.teamprofile {border: 0;}
+
+
+.clear {clear: both;}
+
+.btn {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 40px;
+	color: rgba(255,255,255, 0.95);
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 20px;
+	outline: 0;
+	transition: all 0.1s ease-in;
+}
+
+.btn-transparent {background: rgba(0,0,0, 0.2);}
+.btn-transparent:hover {background: rgba(0,0,0, 0.4);}
+
+/* Separators */
+.separator {
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.2);
+	width: 30px;
+	height: 5px;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+#speakers p {
+	padding: 20px 0 60px;
+	color: rgba(255,255,255, 0.85);
+	font-size: 16px;
+	letter-spacing: 0.2px;
+}
+
+#speakers h1 {
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+#speakers h3 {
+	padding: 0 0 15px;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+#speakers h4  {
+	margin-top: -20px;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+#speakers h4 span {
+	display: block;
+	position: relative;
+	left: -40px;
+	top: 10px;
+	font-size: 20px;
+	background: none;
+	padding: 0;
+}
+
+#speakers h5  {
+  font-size: 20px;
+}
+
+#speakers .teamprofile {
+	width: 100%;
+	max-width: 200px;
+	border-radius: 50%;
+	border: 15px solid transparent;
+
+	transition: all 0.1s ease-in;
+}
+
+#speakers .teamprofile:hover {
+	z-index: 10;
+	transition: all 0.1s ease-in;
+}
+
+#speakers .teamp{
+  display: inline-block;
+  text-align: left;
+  max-width: 250px;
+}
+
+
+#speakers span {
+	padding: 8px 20px;
+	position: relative;
+	top: -64px;
+	left: -42px;
+	display: inline-block;
+	background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
+	border-radius: 0 16px 16px 0;
+	font-size: 14px;
+  font-weight: 600;
+	color: $white;
+}
+
+.hover_img {
+  display: none
+}
+
+.member-profile:hover .unhover_img{
+  display: none;
+}
+
+.member-profile:hover .hover_img {
+  display: block;
+}
+
+ .teamprofile {
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.teamprofile:hover {
+  filter: grayscale(0);
+  transform: scale(1.04);
+}
+
+#speakers li {display: inline-block; padding: 0px 6px; font-size: 18px;}
+#speakers li a {color: rgba(255,255,255, 0.3); transition: all 0.1s ease-in;}
+#speakers li a:hover {color: #fff;}
+
+.row2 {
+	display: none;
+}
+
+.row1 .col-md-3, .row2 .col-md-3 {
+	padding-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+  .row1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 645px) {
+  .row1 {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,151 @@
+.overlay {
+  position: fixed;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: -99;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 99;
+}
+
+.popup {
+  margin: 90px auto;
+  padding: 20px;
+  background: #212121;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: all 5s ease-in-out;
+
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: white;
+}
+.popup .close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: gray;
+}
+.popup .close:hover {
+  color: #ff4d0d;
+}
+.popup .content {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.popup .content::-webkit-scrollbar {
+  width: 12px;
+}
+.popup .content::-webkit-scrollbar-thumb {
+  background: gray;
+}
+.svgdonation {
+  max-width: 300px;
+  height: auto;
+}
+.minikalan1 {
+  float: right;
+}
+.butonalani {
+  float: left;
+  padding-left: 10px;
+}
+.paragiraf1 {
+  text-align: left;
+  float: left;
+  padding-left: 10px;
+  color: white;
+  width: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.kripto{
+  background-color: #555;
+  color: #fff;
+  width: 100%;
+  padding: 2px 15px;
+  margin: 8px 0;
+  border: none;
+  box-sizing: border-box;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+@media screen and (max-width: 1090px){
+  .paragiraf1 {
+    width: 40%;
+  }
+  .minikalan1 {
+    width: auto;
+  }
+}
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+@media screen and (max-width: 910px)
+{
+  .minikalan1 {
+    width: 90%;
+  }
+  .svgdonation {
+    width: 100%;
+    height: auto;
+  }
+  .paragiraf1, .paragiraf2 {
+    width: 90%;
+  }
+}

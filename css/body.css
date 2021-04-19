@@ -1,0 +1,239 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Opensans-Regular', sans-serif;
+  background-color: #212121;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.container .content,
+.container .img {
+  flex: 1 0 12em;
+}
+
+#mainpage {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(../assets/hack.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+  font-size: 20px;
+  text-align: center;
+}
+
+section {
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Opensans-Extrabold';
+}
+
+.prophead {
+  width: 100%;
+  display: block;
+  font-size: calc(1.6em + 3vw);
+  color: white;
+  margin-top: 100px;
+  font-style: italic
+}
+
+.head1 {
+  padding-top: 40px;
+  font-size: calc(1.5em + 2vw);
+  color: black;
+}
+
+#hashtag {
+  display: inline-block;
+  position: relative;
+  font-size: calc(1em + 1vw);
+}
+
+.subtitle {
+  font-size: calc(0.7em + 0.5vw);
+  color: #fff;
+  display: block;
+  margin: 0 10px;
+}
+
+.subtitle-black {
+  font-size: calc(0.7em + 0.5vw);
+  color: black;
+  display: block;
+  margin: 0 10px;
+}
+
+#red {
+  color: black;
+}
+
+#redbutton {
+  color: black;
+  border-color: black;
+}
+
+#redbutton:hover {
+  color: white;
+  background: black;
+  border-color: black;
+}
+
+#yellow {
+  color: white;
+}
+
+.buttons3 {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+a.button {
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  outline: 0;
+  padding: 0.55em 1.2em;
+  box-sizing: border-box;
+  display: inline-block;
+  color: #fff;
+  background: none;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: calc(0.5em + 0.4vw);
+  margin: 20px 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 30%;
+}
+
+a.button:hover {
+  color: black;
+  background: white;
+  border-color: white;
+  transition: all 0.2s linear;
+}
+
+.s1 {
+  max-width: 70%;
+  margin: auto;
+}
+
+.s2 {
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.3)), url(../assets/serdarkuzuloglu.png) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.s3 {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.92)), url(../assets/manifesto.gif) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.s4 {
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.3)), url(../assets/korsangraffiti.JPG) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.s5 {
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+
+.s2landing {
+  width: 50%;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  top: 1200px;
+}
+
+@media (max-width: 680px) {
+  .s1 {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .buttons3 {
+    width: 80%;
+  }
+
+  a.button {
+    font-size: calc(0.7em + 0.5vw);
+    max-width: 90%;
+    width: 90%;
+  }
+}
+
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.feedback-input {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid white;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  background-color: white;
+  color: black;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background: transparent;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+[type="submit"]:hover {
+  background: white;
+  color: black;
+}

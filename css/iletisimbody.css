@@ -1,0 +1,117 @@
+body
+{
+  margin-top: 100px;
+  text-align: center;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(45deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(../assets/arkaplan7.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+form {
+  max-width: 500px;
+  width: 85%;
+  /*background: linear-gradient(225deg, #FF3CAC 0%, #784BA0 67%, #2B86C5 100%);*/
+  background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
+  position: relative;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+  font-family: "Raleway",sans-serif;
+  margin: 0 auto 50px;
+}
+#formbaslik {
+  font-size: 34px;
+  color: white;
+  transition: 0.2s;
+
+}
+.txtb{
+  border:2px solid white;
+  margin: 8px 0;
+  padding: 5px 18px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+.txtb input,.txtb textarea{
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: bold;
+  background: none;
+  outline: none;
+  font-size: 20px;
+  display: block;
+  margin-top: 6px;
+  transition: 0.2s;
+}
+#formbaslik:hover {
+  font-size: 34px;
+  color: black;
+}
+.txtb:hover{
+  border:2px solid black;
+  margin: 8px 0;
+  padding: 5px 18px;
+  border-radius: 8px;
+}
+.txtb label:hover{
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.txtb input:hover,.txtb textarea:hover{
+  width: 100%;
+  border: none;
+  color: black;
+  font-size: bold;
+  background: none;
+  outline: none;
+  font-size: 20px;
+  display: block;
+  margin-top: 6px;
+}
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+::-webkit-input-placeholder:hover {
+  color: rgba(0, 0, 0, 0.3);
+}
+.formbutton {
+  border:2px solid white;
+  background: none;
+  border-radius: 8px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: 0.2s;
+}
+.formbutton .sendit {
+  font-size: 20px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-family:Montserrat;
+  padding-right:4px;
+}
+.formbutton:hover {
+  border:2px solid black;
+  background: none;
+  color: black;
+}

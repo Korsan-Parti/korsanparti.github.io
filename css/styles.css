@@ -1,0 +1,121 @@
+header {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  background: black;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Opensans-Regular', sans-serif;
+}
+
+header .logo {
+  height: 61px;
+  line-height: 61px;
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  height: 60px;
+  line-height: 60px;
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+header nav ul li a:hover {
+  border-bottom: 3px solid white;
+  padding: 5px 0;
+  color: white;
+  transition: 0.1s;
+}
+
+.menu-toggle {
+  color: white;
+  padding: 20px 20px;
+  float: right;
+  line-height: 70px;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 1075px) {
+  header {
+    padding: 0 20px;
+    max-height: 65px;
+  }
+
+  header .logo {
+    padding-top: 2px;
+  }
+
+  .menu-toggle {
+    display: block;
+    padding-top: 0px;
+  }
+
+  header nav {
+    position: fixed;
+    width: 100%;
+    /*height: calc(100vb - 50px);*/
+    background: black;
+    top: 65px;
+    Left: -100%;
+    transition: 0, 5s;
+  }
+
+  header nav.active {
+    Left: 0;
+  }
+
+  header nav ul {
+    display: block;
+    text-align: left;
+  }
+}
+
+.hos {
+  font-size: 60px;
+  font-weight: 1000;
+  text-align: left;
+  margin-left: 5px;
+  color: white;
+  /*background: -webkit-linear-gradient(#000428, #004e92);*/
+}
+h3 {
+  font-size: 25;
+  font-size: bold;
+  text-align: left;
+  margin-left: 5px;
+  color: white;
+}
+
+@media (max-width: 560px) {
+  .hos {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 15px;
+    margin: 15px 10px 10px;
+  }
+}
