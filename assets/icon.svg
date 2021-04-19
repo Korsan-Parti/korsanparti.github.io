@@ -7,11 +7,11 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="9.6000004"
-   inkscape:export-xdpi="9.6000004"
-   inkscape:export-filename="/home/yutyo/Resimler/korsanpartiprofil-new.png"
+   inkscape:export-ydpi="4.8000002"
+   inkscape:export-xdpi="4.8000002"
+   inkscape:export-filename="/home/yutyo/Resimler/icon.png"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="korsanparti-profil-black-newbanner-icon.svg"
+   sodipodi:docname="icon.svg"
    id="svg8"
    version="1.1"
    viewBox="-5000 -5000 10000 10000">
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -36,8 +36,8 @@
      inkscape:window-y="25"
      inkscape:window-x="0"
      inkscape:cy="5621.7145"
-     inkscape:cx="4402.9844"
-     inkscape:zoom="0.032826793"
+     inkscape:cx="-2451.0051"
+     inkscape:zoom="0.031222691"
      showgrid="false"
      id="namedview10"
      inkscape:window-height="715"
