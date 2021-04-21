@@ -1,3 +1,19 @@
+* {
+    scrollbar-color: #ffffff #000000;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+}
+
 header {
   z-index: 100;
   position: fixed;

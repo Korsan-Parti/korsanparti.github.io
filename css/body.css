@@ -10,22 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
-    scrollbar-color: #ffffff #000000;
-}
-
-::-webkit-scrollbar {
-  width: 13px;
-}
-
-::-webkit-scrollbar-track {
-  background: #000000;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #ffffff;
-}
-
 .container {
   display: flex;
   flex-wrap: wrap;
